@@ -1,7 +1,56 @@
+* {
+	margin:0;
+	padding:0;
+}
 body {
 	background-color: grey;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	color: SlateGray;
 }
 
 div {
 	border: 1px solid red;
+}
+
+header {
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	border-bottom: 1px solid SlateGray;
+}
+
+header .nav {
+	width: 800px;
+	margin: 12px auto 0 auto;
+}
+
+header ul {
+	float: right;
+	margin-top:15px;
+	list-style: none;
+}
+
+header ul li {
+	float: left;
+	padding-left: 20px;
+}
+
+header ul li a {
+	color: SlateGray;
+	display: block;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+.logo {
+	width: 27px;
+	float: left;
+}
+
+.current {
+	font-weight: bold;
 }
