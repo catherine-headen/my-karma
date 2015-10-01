@@ -7,9 +7,7 @@ body {
     font-family: 'Roboto', Helvetica, sans-serif;
     color: white;
 }
-div {
-    border: 1px solid red;
-}
+
 h1 {
     font-style: '300';
     font-weight: normal;
@@ -42,6 +40,20 @@ h4 {
     margin-top: 3em;
     padding-bottom: 0;
     text-align: center;
+}
+
+h5{
+    text-align: center;
+    font-size: 1em;
+
+    font-style: '300';
+    margin-top:1.5em;
+}
+
+hr {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 header {
     height: 70px;
@@ -86,7 +98,6 @@ header a:hover {
 }
 .intro .intro-text {
     padding-top: 300px;
-    color: red;
     text-align: center;
 }
 .org-btn {
@@ -110,7 +121,6 @@ header a:hover {
 
 section ul {
     margin: 0 auto;
-    border: 1px solid blue;
 }
 .detail {
     width: 9.1em;
@@ -122,12 +132,61 @@ li.detail {
     margin: 0;
     width: 33%;
     display: inline;
-    border: 1px solid purple;
     text-align: center;
     float: left;
 }
 img.det-image {
-    border: 1px solid green;
     width: 127px;
     height: 127px;
+}
+
+.social {
+    width:800px;
+    margin: 0 auto;
+    margin-top: 400px;
+    clear: both;
+    color: grey;
+    text-align: center;
+}
+
+.social .info ul{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.social ul > li{
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #eaebec;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 1em 0.5em;
+}
+
+.social ul li .fa{
+    padding: 11px;
+}
+
+.social .fa-twitter{
+    color: #55acee;
+}
+
+.social .fa-facebook{
+    color: #4c66a4;
+}
+
+.social .fa-instagram{
+    color: #3f729b;
+}
+
+.social p{
+    clear: both;
+    text-align: center;
+    margin-bottom: 2em;
+    color: #838994;
+    font-size: 0.9em;
+    font-weight: '300';
 }
